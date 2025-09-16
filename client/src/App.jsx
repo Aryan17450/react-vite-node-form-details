@@ -25,7 +25,7 @@ function FormPage() {
     const fetchImages = async () => {
       const tempImages = [];
       for (let i = 0; i < 13; i++) {
-        // Each request gives a random image
+        // Each request gives a random imageooooo
         tempImages.push(`https://picsum.photos/200/300?random=${i}`);
       }
       setImages(tempImages);
